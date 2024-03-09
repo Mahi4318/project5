@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+.main_body{
+    background-color: rgb(226, 245, 243);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form
+{
+    width: 350px;
+    height: 420px;
+    border-radius: 15px;
+    box-shadow: 0 15px 20px rgb(0, 0, 0, 0.5);
+}
+
+.top{
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: linear-gradient(to left, rgb(205, 72, 235),rgba(0, 0, 255, 0.788));
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bottom{
+    background: #fff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+.info1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.info1 input{
+    border-radius: 25px;
+    padding: 15px;
+    margin: 10px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+.info2 {
+    margin-left: 40px;
+}
+
+.info2 a{
+    text-decoration: none;
+    margin-left: 25px ;
+}
+
+.info2 a:hover{
+    text-decoration: underline;
+}
+.login_btn{
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.login_btn button{
+    border-radius: 25px;
+    padding: 10px 15px;
+    margin: 5px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: linear-gradient(to left, rgb(205, 72, 235),rgba(0, 0, 255, 0.788));
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+}
+
+.info3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 63px;
+}
+
+.info3 a{
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.info3 a:hover{
+    text-decoration: underline;
+}
